@@ -183,3 +183,16 @@ a {
   background-color: #404040;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .projects-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 532px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
