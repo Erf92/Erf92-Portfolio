@@ -172,3 +172,14 @@ a {
 .telegram-link:hover {
   color: rgb(0, 0, 144);
 }
+
+.footer {
+  padding: 1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: start;
+  justify-content: center;
+  background-color: #404040;
+  color: white;
+}
